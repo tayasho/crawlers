@@ -6,7 +6,7 @@ const ContentStatusChart = () => {
   const published = 1573;
   const draft = 386;
   const archived = 586; // この値はサマリーに表示しませんが、グラフや他の計算で使われます
-  const stopped = 302;
+  const stopped = 303;
   const running = published-stopped;
 
   // ★ ユーザー指定の「全件」合計を計算
