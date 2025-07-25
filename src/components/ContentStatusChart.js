@@ -3,13 +3,12 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 import './ContentStatusChart.css';
 
 const ContentStatusChart = () => {
-  const published = 1648;
-  const draft = 434;
-  const archived = 586; // この値はサマリーに表示しませんが、グラフや他の計算で使われます
-  // Published率79.15% (Published: 1648 / Draft: 434 + Published), Archived: 586
+  const published = 1678;
+  const draft = 405;
+  const archived = 587; // Published率80.56% (Published: 1678 / Draft: 405 + Published), Archived: 587
 
-//稼働率77.91% (Publishedのうち未取得 or 一定期間取得ナシ: 364 / Published)
-  const stopped = 364;
+//稼働率74.55% (Publishedのうち未取得 or 一定期間取得ナシ: 427 / Published)
+  const stopped = 427;
   const running = published-stopped;
 
   // ★ ユーザー指定の「全件」合計を計算
