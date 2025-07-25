@@ -5,9 +5,10 @@ import './ContentStatusChart.css';
 const ContentStatusChart = () => {
   const published = 1678;
   const draft = 405;
-  const archived = 587; // Published率80.56% (Published: 1678 / Draft: 405 + Published), Archived: 587
+  const archived = 587; 
+  // Published率80.56% (Published: 1678 / Draft: 405 + Published), Archived: 587
 
-//稼働率74.55% (Publishedのうち未取得 or 一定期間取得ナシ: 427 / Published)
+　//稼働率74.55% (Publishedのうち未取得 or 一定期間取得ナシ: 427 / Published)
   const stopped = 427;
   const running = published-stopped;
 
