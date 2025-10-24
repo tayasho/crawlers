@@ -3,12 +3,14 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 import './ContentStatusChart.css';
 
 const ContentStatusChart = () => {
-  const published = 1860;
-  const draft = 246;
+  const published = 1876;
+  const draft = 251;
   const archived = 642; 
-  const stopped = 521;
+  const stopped = 579;
   const running = published-stopped;
   const totalPubDraft = published + draft;
+
+
 
   // 他の合計値 (グラフのmaxY計算などに必要なら残す)
   const totalLeftBar = published + draft + archived;
