@@ -3,10 +3,10 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 import './ContentStatusChart.css';
 
 const ContentStatusChart = () => {
-  const published = 1948;
-  const draft = 186;
-  const archived = 642; 
-  const stopped = 699;
+  const published = 2004;
+  const draft = 184;
+  const archived = 680; 
+  const stopped = 621;
   const running = published-stopped;
   const totalPubDraft = published + draft;
 
